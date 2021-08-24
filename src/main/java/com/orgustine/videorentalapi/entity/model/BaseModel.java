@@ -1,4 +1,4 @@
-package com.orgustine.videorentalapi.entity;
+package com.orgustine.videorentalapi.entity.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,6 +20,5 @@ public class BaseModel {
     @Id
     @GeneratedValue
     private UUID id;
-    private String title;
 
 }
